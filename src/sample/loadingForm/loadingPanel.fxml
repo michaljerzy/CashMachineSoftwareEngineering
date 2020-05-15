@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.loadingForm.loadingContreoller">
+   <children>
+      <ProgressBar fx:id="progressBar" layoutX="4.0" layoutY="356.0" prefHeight="30.0" prefWidth="592.0" progress="0.0" />
+      <Label layoutX="74.0" layoutY="45.0" text="Gotówka zaraz zostanie wydana">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblEnd" layoutX="14.0" layoutY="186.0" text="Dziękujemy za skorzystanie z naszych usług">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Button layoutX="216.0" layoutY="249.0" mnemonicParsing="false" fx:id="butEnd" onMouseClicked="#clickEnd" prefHeight="69.0" prefWidth="169.0" text="Zakończ">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
